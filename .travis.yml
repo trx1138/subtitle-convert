@@ -6,6 +6,5 @@ install:
   - pip install -r requirements.txt
 
 script:
-  - pip uninstall enum34
   - pylint subtitle_convert
   - pyinstaller subtitle_convert.spec --clean -y
