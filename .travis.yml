@@ -7,3 +7,4 @@ install:
 
 script:
   - pylint subtitle_convert
+  - pyinstaller subtitle_convert.spec --clean -y
