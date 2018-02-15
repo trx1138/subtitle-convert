@@ -12,7 +12,7 @@ mccabe==0.6.1
 pycaption==1.0.1
 pylint==1.7.4
 pyinstaller==3.3.1
-PyQt5==5.9
+PyQt5==5.10
 sip==4.19.3
 six==1.11.0
 wrapt==1.10.11

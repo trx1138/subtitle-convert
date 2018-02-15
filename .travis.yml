@@ -7,4 +7,5 @@ install:
 
 script:
   - pylint subtitle_convert
+  - pip uninstall -y enum34
   - pyinstaller subtitle_convert.spec --clean -y
